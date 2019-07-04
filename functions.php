@@ -47,7 +47,7 @@
 
     function displayHonestHeadline( $x, $y ) {
         if($y == $x){
-            echo "<div class='alert alert-danger' role='alert'>Ooops, '".ucwords($x)."' could not be made honest. Try again with the lited words</div> ";
+            echo "<div class='alert alert-danger' role='alert'>Ooops, '".ucwords($x)."' could not be made honest. Try again with the listed words</div> ";
 
         }else{
                         // use ucwords() function to uppercase first letter in every word
